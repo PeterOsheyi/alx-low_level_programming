@@ -11,7 +11,7 @@ int main(void)
 {
 	int intType;
 	signed long int longLongInt;
-	unsigned long int longInt;
+	unsigned long int longIntType;
 	float floatType;
 	double doubleType;
 	char charType;
