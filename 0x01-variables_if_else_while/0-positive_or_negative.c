@@ -9,8 +9,8 @@
  * Return: Always 0 (Success)
  *
  **/
+int n;
 int main(void)
-	int n;
 {
 	if (n == 0)
 	{
