@@ -7,8 +7,13 @@
  * Return: Always 0 (Success)
  *
  **/
-int main(void)
+int main()
 {
+	int intType;
+	float floatType;
+	double doubleType;
+	char charType;
+	/*size of types*/
 	printf(sizeof(intType));
 	printf(sizeof(floatType));
 	printf(sizeof(doubleType));
