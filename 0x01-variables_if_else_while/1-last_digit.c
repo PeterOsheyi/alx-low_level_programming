@@ -19,15 +19,21 @@ int main(void)
 	lDigit = n % 10;
 	if (lDigit > 5)
 	{
-		printf("%d Last digit of", n "%d is", lDigit, "%d and is greater than 5");
+		printf("%d Last digit of", n);
+		printf("%d is", lDigit);
+		printf("%d and is greater than 5");
 	}
 	else if (lDigit == 0)
 	{
-		printf("%d Last digit of", n "%d is", lDigit, "%d and is 0");
+		printf("%d Last digit of", n);
+	       printf("%d is", lDigit);
+	       printf("%d and is 0");
 	}
 	else if (lDigit < 6 != 0)
 	{
-		printf("%d Last digit of", n "%d is", lDigit, "%d and is less than 6 and not 0");
+		printf("%d Last digit of", n);
+		printf("%d is", lDigit);
+		printf("%d and is less than 6 and not 0");
 	}
 	return (0);
 }
