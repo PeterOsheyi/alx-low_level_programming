@@ -11,7 +11,7 @@
  **/
 int main(void)
 {
-	int n, lDigit;
+	int n, lDigit a=5, b=0;
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
@@ -21,19 +21,19 @@ int main(void)
 	{
 		printf("%d Last digit of", n);
 		printf("%d is", lDigit);
-		printf("%d and is greater than 5\n");
+		printf("%d and is greater than ", a);
 	}
 	else if (lDigit == 0)
 	{
 		printf("%d Last digit of", n);
 	       printf("%d is", lDigit);
-	       printf("%d and is 0\n");
+	       printf("%d and is \n", b);
 	}
 	else if (lDigit < 6 != 0)
 	{
-		printf("%d Last digit of", n);
+	7	printf("%d Last digit of", n);
 		printf("%d is", lDigit);
-		printf("%d and is less than 6 and not 0\n");
+		printf("%d and is less than 6 and not ", b);
 	}
 	return (0);
 }
