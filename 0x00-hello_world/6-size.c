@@ -9,11 +9,11 @@
  **/
 int main(void)
 {
+	char charType;
 	int intType;
 	signed long int longLongInt;
 	unsigned long int longIntType;
 	float floatType;
-	char charType;
 	/*size of types of data in C*/
 	printf("Size of a char: %zu byte(s)\n", sizeof(charType));
 	printf("Size of an int: %zu byte(s) \n", sizeof(intType));
