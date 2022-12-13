@@ -13,14 +13,12 @@ int main(void)
 	signed long int longLongInt;
 	unsigned long int longIntType;
 	float floatType;
-	double doubleType;
 	char charType;
 	/*size of types of data in C*/
 	printf("Size of int: %zu bytes\n", sizeof(intType));
 	printf("Size of long int: %zu bytes\n", sizeof(longIntType));
 	printf("Size of long long int: %zu bytes\n", sizeof(longLongInt));
 	printf("Size of float: %zu bytes\n", sizeof(floatType));
-	printf("Size of double: %zu bytes\n", sizeof(doubleType));
 	printf("Size of char: %zu bytes \n", sizeof(charType));
 		return (0);
 }
