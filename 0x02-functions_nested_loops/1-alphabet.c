@@ -1,18 +1,19 @@
 #include "main.h"
-#include "holberton.h"
 
 /**
  * main - check the code
  *
- * print_alphabet - prints alphabet
+ * Description: "print_alphabet - prints alphabet"
  *
- * Retrn: Always 0.
+ * Return: Always 0.
  **/
 void print_alphabet(void)
 {
-	char c;
+	char lCase;
 
-	for (c = 'a'; c <= 'z'; c++)
-		_putchar(c);
+	for (lCase = 'a'; lCase <= 'z'; lCase++);
+	{
+		_putchar(lCase);
+	}
 	_putchar('\n');
 }
