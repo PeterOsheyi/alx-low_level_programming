@@ -1,17 +1,19 @@
 #include "main.h"
 /**
- * * add - Adds two integers.
+ * print_alphabet_x10 - to print the alphabets 10 times
  *
- * * @n1: The first integer to be added.
- *
- * * @n2: The second integer to be added.
- *
- * *
- *
- * * Return: The result of the addition.
- *
- * */
-int add(int n1, int n2)
+ * Returns: Always 0
+ **/
+void print_alphabet_x10(void)
 {
-	return (n1 + n2);
+	char c, i;
+
+	for (i = 0; i <= 9; i++)
+	{
+		for (c = 'a'; c <= 'z'; c++)
+		{
+			_purchar(c);
+		}
+		_putchar('\n');
+	}
 }
