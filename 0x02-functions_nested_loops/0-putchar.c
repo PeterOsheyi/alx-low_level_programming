@@ -9,7 +9,6 @@
  **/
 int main(void)
 {
-	char p = _putchar;
-
-	printf("%s\n", p);
+	printf("_putchar\n");
+	return (0);
 }
