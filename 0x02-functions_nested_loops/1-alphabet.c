@@ -9,11 +9,11 @@
  **/
 void print_alphabet(void)
 {
-	char lCase;
+	char c;
 
-	for (lCase = 'a'; lCase <= 'z'; lCase++);
+	for (c = 'a'; c <= 'z'; c++);
 	{
-		_putchar(lCase);
+		_putchar(c);
 	}
 	_putchar('\n');
 }
