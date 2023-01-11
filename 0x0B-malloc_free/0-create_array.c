@@ -9,14 +9,16 @@
  */
 char *create_array(unsigned int size, char c)
 {
-	char *array = NULL;
+	char *a = NULL;
 	unsigned int i;
 
 	if (size == 0)
-		return (NULL);
-	if (size == !0)
 	{
-		array = (char *)malloc(size * sizeof(char));
+		return (NULL);
+	}
+	/* if (size == !0)
+	{
+		a = (char *)malloc(size * sizeof(c));
 		if (array != NULL)
 		{
 			for (i = 0; i < size; i++)
@@ -24,4 +26,21 @@ char *create_array(unsigned int size, char c)
 		}
 	}
 	return (array);
+} 
+*/
+a = (char *) malloc(size * sizeof(c));
+if (a == 0)
+{
+return (NULL);
+}
+else
+{
+i = 0;
+while (i < size) /*While for array*/
+{
+*(a + i) = c;
+i++;
+}
+return (a);
+}
 }
